@@ -1,4 +1,4 @@
-gcloud config set project my-kubernetes-project-304910
+gcloud config set project my-kubernetes-project-445007
 gcloud container clusters get-credentials my-cluster --zone us-central1-c --project my-kubernetes-project-304910
  
 kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
